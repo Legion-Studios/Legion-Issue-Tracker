@@ -1,0 +1,49 @@
+name: New Feature/suggestion
+title: "New Feature: "
+description: Suggest new content/features/assets!
+labels: ["enhancement","triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Before we begin...
+        - Please search your request in this tracker using key words and phrases.
+        - 
+  - type: checkboxes
+    id: content-selection
+    attributes:
+      label: Type
+      description: What categories does this new feature fall under?
+      options:
+        - label: Civilian/Bounty Hunter/Independent/Factionless
+        - label: Original Trilogy
+        - label: Prequel Trilogy
+        - label: Scripts/Extended Config Functionality
+        - label: Uniform/Character Wear
+        - label: Vehicle
+        - label: Weapon
+  - type: textarea
+    id: request-info
+    attributes:
+      label: What is your suggestion?
+      description: What is your suggestion? (Template Included) 
+      value: |
+        ### Suggestion:
+        AT-TE
+        
+        ##### Description:
+        I think it would be really cool to have an AT-TE in Arma 3.
+        
+        ##### Concept Images/Information (Feel free to copy paste screenshots, attach error logs, etc.):
+        ![](https://pbs.twimg.com/media/E5tRrypUcAMGbTA?format=jpg)
+        ![](https://i.pinimg.com/originals/22/20/c0/2220c09d74d67bb639bfc88a07232838.jpg)
+        ![](https://pbs.twimg.com/media/E5tRY-2VoAEd7KJ?format=jpg)
+        ![](https://pbs.twimg.com/media/E5tRh-vUUAAmWEp?format=jpg)
+  - type: input
+    id: contact-info
+    attributes:
+      label: Contact Info (optional)
+      description: Optional discord, username, email, etc. if we need further information
+      placeholder: "@CoolGuy1999"
+    validations:
+      required: false
