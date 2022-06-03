@@ -21,6 +21,14 @@ body:
         - label: "Legion: Insurrection"
         - label: "Legion: Dissension"
         - label: "Legion: Reforged (Reforger)"
+  - type: textarea
+    id: bug-info
+    attributes:
+      label: Errors and Other information
+      description: What happened? 
+      value: |
+        ##### Description:
+        ##### How to Reproduce:
   - type: input
     id: contact-info
     attributes:
