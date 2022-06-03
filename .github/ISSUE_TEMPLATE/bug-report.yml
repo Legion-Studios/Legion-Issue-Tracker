@@ -16,7 +16,6 @@ body:
       label: Mod
       description: Which mod(s) were you using?
       options:
-        required: true
         - label: "Legion: The Definitive Edition (Test Build)"
         - label: "Legion: Core (Stable)"
         - label: "Legion: Insurrection"
