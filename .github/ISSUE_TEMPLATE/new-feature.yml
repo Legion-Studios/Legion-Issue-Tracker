@@ -8,7 +8,6 @@ body:
       value: |
         ## Before we begin...
         - Please search your request in this tracker using key words and phrases.
-        - 
   - type: checkboxes
     id: content-selection
     attributes:
