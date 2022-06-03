@@ -27,8 +27,15 @@ body:
       label: Errors and Other information
       description: What happened? 
       value: |
+        Example
         ##### Description:
+        Legion is a bad mod and it causes my server to crash. Please git gud. You guys are doing terrible.
+        
         ##### How to Reproduce:
+        Add Legion to server. Watch fire. Cry.
+        
+        ##### Relevant Files/Information:
+        ![Sad boi Ani](https://tenor.com/view/i-hate-you-anakin-darth-vader-vader-star-wars-gif-13071041)
   - type: input
     id: contact-info
     attributes:
