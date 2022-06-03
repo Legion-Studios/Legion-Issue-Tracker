@@ -20,7 +20,7 @@ body:
         - label: "Legion: Core (Stable)"
         - label: "Legion: Insurrection"
         - label: "Legion: Dissension"
-        - Label: "Legion: Reforged (Reforger)"
+        - label: "Legion: Reforged (Reforger)"
   - type: input
     id: contact-info
     attributes:
