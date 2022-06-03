@@ -6,8 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Before we begin...
-        ## Before posting a bug
+        ## Before we begin...
         1. Please search your issue in this tracker using key words and phrases.
         2. Ensure this bug is reproducible with *just* Legion (and any Legion produced compatibility mods)
         3. If you're unsure, please visit [our discord](https://discord.com/invite/eWz2xPXdeq) [#tech-support-general](https://discord.com/channels/461042140756180992/795755741553360946), and ask a few questions
