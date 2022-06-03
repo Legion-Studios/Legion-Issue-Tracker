@@ -15,7 +15,8 @@ body:
     attributes:
       label: Mod
       description: Which mod(s) were you using?
-      required: true
+      validations:     
+        required: true
       options:
         - label: "Legion: The Definitive Edition (Test Build)"
         - label: "Legion: Core (Stable)"
@@ -24,7 +25,8 @@ body:
         - Label: "Legion: Reforged (Reforger)"
   - type: input
     id: contact-info
-    required: false
+    validations:
+      required: false
     attributes:
       label: Contact Info (optional)
       description: Optional discord, username, email, etc. if we need further information
