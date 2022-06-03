@@ -1,9 +1,21 @@
 name: Bug Report
+title: "Bug: "
 description: File a bug/error report!
 labels: ["bug","triage"]
-assignees:  ''
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: mod
+    attributes:
+      label: Mod
+      description: Which mod were you using?
+      options:
+        - "Legion: The Definitive Edition (Test Build)"
+        - "Legion: Core (Stable)"
+        - "Legion: Insurrection"
+        - "Legion: Dissension"
+        - "Legion: Reforged (Reforger)"
+        - Multiple Legion mods
